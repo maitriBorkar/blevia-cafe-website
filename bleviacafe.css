@@ -1,0 +1,93 @@
+body {
+    background: #63523f;
+}
+
+.navbar {
+    /* display: flex; */
+    /* gap: 30px; */
+    background: #95b1bd;
+    padding: 20px;
+    border-radius: 0px;
+    margin: 30px;
+}
+
+.sections {
+    display: flex;
+    gap: 346px;
+}
+
+.sections a {
+    color: #63523f;
+    font-size: large;
+}
+
+.home {
+    width: 1274px;
+    height: 600px;
+    display: block;
+    border-radius: 0px;
+    margin: 30px;
+}
+
+.about {
+    background: #95b1bd;
+    padding: 20px;
+    border-radius: 0px;
+    margin: 30px;
+    font-size: larger;
+}
+
+.menu {
+    background: #95b1bd;
+    padding: 20px;
+    border-radius: 0px;
+    margin: 30px;
+    font-size: larger;
+}
+
+.menuitems {
+    /* display: flex;
+    gap: 50px;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+}
+
+/* .espresso {
+    width:50px;
+    height:50px;
+}
+
+.coldcoff {
+    width:250px;
+    height:auto;
+} */
+
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
+    width: 250px;
+    height: auto;
+}
+
+.menu5,
+.menu6,
+.menu7,
+.menu8 {
+    width: 250px;
+    height: auto;
+}
+
+.contact {
+    background: #493e2f;
+    margin: 0px;
+    padding: 40px;
+    text-align: center;
+    width: 1250px;
+}
+
+.sections2 a {
+    color: rgb(94, 132, 165);
+}
